@@ -10,5 +10,6 @@ jobs:
       - name: Hello World
         run: |
           echo hello world!
+          cat README.md
       - run: echo "This job's status is ${{ job.status }}."
 
